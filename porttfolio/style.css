@@ -1,0 +1,337 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body {
+
+        background-color: black;
+    }
+
+    #logo {
+        display: flex;
+        height: 241px;
+        margin-left: 282px;
+        margin-top: 189px;
+        padding-left: 10px;
+    }
+
+    img {
+        border-radius: 50%;
+
+    }
+
+    .navbar::before {
+        background: url('bg.jpg') no-repeat center center/cover;
+        position: absolute;
+        content: "";
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 658px;
+        z-index: -1;
+        opacity: 0.5;
+        /* background-color: rgba(0, 0, 1, 0.5); */
+
+    }
+
+    .navbar {
+        display: flex;
+        list-style: none;
+        margin-left: 365px;
+        margin-top: -432px;
+        
+        /* position: sticky; */
+    }
+    .navbar li {
+        padding: 28px;
+        
+    }
+
+    a:hover {
+        text-decoration: solid;
+        color: gray;
+    }
+
+    li a {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: silver;
+        text-decoration: none;
+
+    }
+
+    .text {
+        color: white;
+
+        height: 185px;
+        width: 185px;
+        margin-left: 523px;
+        margin-top: -186px;
+    }
+    .resume{
+        margin-top: 420px;
+        margin-left: 575px;
+
+    }
+    .resume button{
+         background: none;
+         border: 3px solid grey;
+         border-radius: 3px;
+         color: white;
+         height: 42px;
+         width: 147px;
+         cursor: pointer;
+         font-size: 15px;
+         font-weight: 700;
+    }
+
+
+
+    .about {
+        /* background-color: lighcoral; */
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+
+    #aboutus {
+        display: flex;
+        background-color: black;
+        color: gray;
+        /* display: flex; */
+        margin-top: 198px;
+        width: 999px;
+        border-width: 100%;
+        margin-left: -8px;
+       margin-right: -8px;
+       
+
+    }
+
+    #aboutus h2 {
+        color: gray;
+        margin-left: 595px;
+    }
+    .about h5{
+        margin-top: 35px;
+        margin-left: 70px;
+        margin-right: -229px;
+        text-align: justify;
+        font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    word-spacing: 0.1em;
+     font-style: italic;    
+}
+
+   .line1{
+    margin-top: 75px;
+    margin-left: 100px;
+    
+   }
+
+    #skills {
+        display: flex;
+        background-color: black;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+
+    .skill {
+
+        /* background-color: lightgreen; */
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        margin-top: 50px;
+
+    }
+
+    .skill h2 {
+        color: gray;
+        margin-left: 596px;
+        margin-top: -17px;
+    }
+    .skill li{
+        margin-top: 15px;
+        margin-left: 100px;
+        line-height: 177%;
+
+    }
+
+    .skill hr{
+        margin-top: 75px;
+        margin-left: 315px;
+    }
+
+    #projects{
+        display: flex;
+        background-color: black;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+     
+    .project{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        margin-top: 50px;
+    }
+
+    .project h2{
+        color: gray;
+        margin-left: 596px;
+        margin-top: -17px;
+    }
+
+   .tic li{
+        margin-left: 100px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: white;
+        font-size: 20px;
+        margin-top: 16px;
+
+   }
+
+   .tic img{
+    border: 2px solid brown;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 127px;
+        height: 200px;
+        width: 200px;
+   }
+
+   .tic p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    word-spacing: 0.1em;
+    margin-left: 380px;
+    margin-right: 15px;
+    
+    padding-bottom: 15px;
+    margin-top: -165px;
+   }
+
+   .case li{
+    margin-left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 115px;
+
+   }
+
+   .case img{
+    border: 4px solid brown;
+    border-radius: 5px;
+    margin-top: 45px;
+    margin-left: 62px;
+        height: 200px;
+        width: 420px;
+   }
+
+   .case p{
+    
+    margin-left: 530px;
+    margin-right: 15px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    word-spacing: 0.1em;
+    margin-top: -165px;
+   }
+
+
+
+    .project hr{
+        margin-top: 150px;
+        margin-left: 450px;
+    }
+
+    #contacts {
+        display: flex;
+        background-color: black;
+        margin-left: -8px;
+        margin-right: -8px;
+
+    }
+
+    .contact {
+        /* background-color: lightgray; */
+        margin-top: 40px;
+        color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .contact h2 {
+        /* margin-top: 10px; */
+       margin-left: 570px;
+
+        color: gray;
+
+
+    }
+    .contact h5{
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+
+    footer{
+
+        background-color: gray;
+        height: 60px;
+        padding-top: 10px;
+    }
+
+    .footer {
+        /* display: flex; */
+        color: white;
+        margin-left: 465px;
+        margin-right: -8px;
+        margin-bottom: -8px;
+    }
+
+    .footer .link{
+        margin-left: 83px;
+    }
+     
+    footer a:hover{
+        color: black;
+    }
+    @media only screen and (max-width: 768px) {
+        .navbar {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .navbar li {
+            margin-top: 10px;
+        }
+
+        .text {
+            margin-top: 10px;
+        }
+
+        #aboutus h2,
+        #skills h2,
+        #projects h2,
+        #contacts h2 {
+            margin-left: 20px;
+        }
+
+        .about h5 {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .skill li,
+        .project li {
+            margin-left: 20px;
+        }
+    }
+   
